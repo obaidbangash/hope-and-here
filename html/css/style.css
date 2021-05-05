@@ -1,0 +1,1287 @@
+/* globel css starts here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  object-fit: cover;
+}
+body {
+  font-family: "Nunito Sans";
+}
+.container {
+  max-width: 1182px;
+  margin: 0 auto;
+}
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+a,
+p,
+li,
+ul,
+ol,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+label,
+form,
+input {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-ExtraLight.woff2") format("woff2"),
+    url("../fonts/NunitoSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Light.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Black.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/NunitoSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-ExtraBold.woff2") format("woff2"),
+    url("../fonts/NunitoSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Regular.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fonts/NunitoSans-Bold.woff2") format("woff2"),
+    url("../fonts/NunitoSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* header css stars here */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+header .header-top {
+  background-color: #b17b80;
+  padding: 10px 0;
+}
+.top-list{
+  padding-top: 3px;
+}
+header .header-top ul li{
+  padding: 0 10px 0 15px;
+  border-right: 1px solid #b9888d;
+  
+}
+header .header-top ul li a {
+  color: #faf6f7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+header .header-top ul li a:hover{
+  color: #000000;
+}
+header .top-info {
+  padding-top: 7px;
+  padding-right: 10px;
+}
+header .top-info p {
+  color: #faf6f7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-right: 11px;
+  border-right: 1px solid #b9888d;
+}
+header .top-info span {
+  color: #faf6f7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-right: 11px;
+  border-right: 1px solid #b9888d;
+  padding-left: 11px;
+}
+header .top-info span a {
+  color: #faf6f7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-right: 11px;
+}
+header .top-icon {
+  padding-left: 10px;
+}
+header .top-icon i {
+  padding-left: 9px;
+  color: #ffffff;
+}
+.navbar-nav {
+  flex-direction: row !important;
+}
+header .header-content .navbar-nav li {
+  padding-right: 5px;
+}
+header .header-content
+{
+padding-top: 22px;
+}
+header .header-content .navbar-nav li a {
+  color: #000000 !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+header .header-content .navbar-nav li a:hover{
+  color: #b17b80 !important;
+}
+header .header-content .cart-main {
+  width: 40px;
+  height: 38px;
+  background-color: #b17b80;
+  line-height: 44px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+header .header-content .cart-main i {
+  color: #ffffff;
+  font-size: 20px;
+ 
+}
+header .header-content .cart-main i:hover{
+  color: #000000;
+  transition: all 0.5s  ease;
+}
+header .header-content .search i {
+  font-size: 20px;
+  padding-left: 15px;
+}
+.main-search{
+  position: relative;
+}
+.search-form{
+  position: absolute;
+  top: -8px;
+  right: 18px;
+  display: none;
+}
+/* header css ends here */
+/* banner css starts here */
+.banner {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 335px 0 235px;
+  position: relative;
+}
+.banner .banner-content h1 {
+  font-size: 91px;
+  line-height: 114px;
+  font-weight: 900;
+  color: #253d7f;
+  max-width: 845px;
+  padding-bottom: 24px;
+}
+.banner .banner-content p {
+  font-size: 20px;
+  line-height: 26px;
+  color: #253d7f;
+  font-weight: 600;
+  padding-bottom: 35px;
+}
+.banner .banner-content a {
+  font-size: 16.55px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 18px 55px;
+  border-radius: 50px;
+  background-color: #b17b80;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  z-index: 999;
+}
+.banner .banner-content a::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  /* background-color: rgb(255,255,255, 0.3); */
+  background-color: #fff;
+  top: 0;
+  left: -100%;
+  border-radius: 50px;
+  z-index: -1111;
+
+  
+}
+.banner .banner-content a:hover::before{
+  left: 0;
+  animation: mymove  0.9s ease;
+  
+}
+@keyframes mymove {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+.banner .banner-content a:hover{
+ 
+  color: #b17b80;
+}
+/* BANNER ENDS HERE */
+/* section dawing starts here */
+.section-dawing {
+  padding: 58px 0 13px;
+}
+.section-dawing .slide-1 {
+  /* width: 390px; */
+  height: 451px;
+  position: relative;
+  margin-right: 10px;
+}
+.section-dawing h2 {
+  font-size: 45px;
+  line-height: 51px;
+  color: #2a3e7b;
+  padding-bottom: 20px;
+}
+.section-dawing p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000000;
+  padding-bottom: 48px;
+}
+
+.section-dawing .slider-overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 412px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.section-dawing .book:hover .slider-overlay {
+  display: block;
+  transition: all 0.5s ease;
+}
+.section-dawing .slider-overlay .add-cart {
+  /* margin-top: 50%; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 1;
+  background-color: #b9888d;
+  padding: 14px 37px;
+  border-radius: 50px;
+  font-size: 16.55px;
+  font-weight: 600;
+}
+.section-dawing .slider-overlay .veiw-icon {
+  text-align: end;
+  margin-top: 18px;
+  padding-right: 10px;
+}
+.section-dawing .slider-overlay .veiw-icon a {
+  font-size: 16.55px;
+  font-weight: 600;
+  color: #b9888d;
+}
+.section-dawing .book {
+  height: 412px;
+  width: 100%;
+  background-color: #2a3e7b;
+
+}
+.section-dawing .book img {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.section-dawing .slider-img {
+  height: 412px;
+  width: 100%;
+  position: relative;
+  transition: 0.3s all ease-in-out;
+}
+.section-dawing .slider-img:hover .slider-overlay {
+  display: block;
+  transition: all 0.5s ease;
+}
+.section-dawing .slider-img img {
+  width: 100%;
+  height: 100%;
+}
+.section-dawing .slide-1 p {
+  font-size: 18px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 13px;
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  margin-top: 55px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:focus span {
+  background: #253d7f;
+  width: 40px;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+/* section dawing ends here */
+/* section online community starts here */
+.community {
+  background-color: #f8f8f8;
+  padding: 62px 0 100px;
+}
+
+.community h2 {
+  font-size: 45px;
+  line-height: 51px;
+  color: #2a3e7b;
+  padding-bottom: 13px;
+}
+.community h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-bottom: 41px;
+}
+
+.community .community-img {
+  width: 100%;
+  height: 452px;
+}
+.community .community-img img {
+  width: 100%;
+  height: 100%;
+}
+.community .community-info {
+  padding-top: 50px;
+}
+.community .community-info h5 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #9a9a9a;
+  padding-bottom: 6px;
+}
+.community .community-info h3 {
+  font-size: 35px;
+  line-height: 41px;
+  padding-bottom: 16px;
+}
+.community .community-info p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.43px;
+  color: #3c3c3c;
+  padding-right: 10px;
+}
+.community .community-info .para-two {
+  padding-bottom: 31px;
+}
+
+.community .community-info a {
+  padding: 14px 37px;
+  border-radius: 50px;
+  font-size: 16.55px;
+  font-weight: 600;
+  background-color: #b9888d;
+  border: 1px solid transparent;
+}
+.community .community-info a:hover{
+  color: #b9888d !important;
+  background-color: transparent;
+  border: 1px solid #b9888d;
+}
+/* section online-community ends here */
+/* section clients starts here */
+.section-client {
+  background-color: #f8d2cc;
+  padding: 80px 0 112px;
+}
+.section-client .client-veiw a {
+  padding: 17px 59px;
+  border-radius: 50px;
+  font-size: 16.55px;
+  font-weight: 600;
+  background-color: #b9888d;
+}
+.section-client .client-veiw a:hover{
+  color: #b9888d !important;
+  background-color: #ffffff;
+}
+.section-client h2 {
+  font-size: 45px;
+  line-height: 51px;
+  color: #2a3e7b;
+  padding-bottom: 13px;
+}
+.section-client h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-bottom: 41px;
+}
+.section-client .client-heading h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #515252;
+  padding-left: 25px;
+}
+.section-client .quote i {
+  font-size: 93px;
+  color: #b17b80;
+  opacity: 0.2;
+}
+.section-client .client-icon {
+  padding-bottom: 13px;
+}
+.section-client p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  padding-bottom: 31px;
+  max-width: 555px;
+}
+.section-client h5 {
+  color: #2a3e7b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.section-client span {
+  display: inline-block;
+  color: #b17b7f;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.section-client .client-right-info {
+  padding-left: 42px;
+}
+.section-client .client-left-info {
+  padding-right: 35px;
+}
+/* section clients ends here */
+/* CONTENT SECTION VAGINISUM STARTTS HERE */
+.section-vaginismus {
+  padding: 58px 0 13px;
+}
+.section-vaginismus .slide-1 {
+  height: 451px;
+  position: relative;
+  margin-right: 10px;
+  
+}
+.section-vaginismus h2 {
+  font-size: 45px;
+  line-height: 51px;
+  color: #2a3e7b;
+  padding-bottom: 20px;
+}
+.section-vaginismus p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000000;
+  padding-bottom: 48px;
+}
+.section-vaginismus .slider-img {
+  height: 412px;
+  width: 100%;
+  cursor: pointer;
+}
+.section-vaginismus .slide-1 img {
+  width: 100%;
+  height: 100%;
+}
+.section-vaginismus .slide-1 p {
+  font-size: 18px;
+  line-height: 31px;
+  font-weight: 500;
+  color: #000000;
+  padding-top: 13px;
+}
+.owl-theme .owl-nav {
+  display: none;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  margin-top: 55px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:focus span {
+  background: #253d7f;
+  width: 40px;
+  outline: none;
+}
+.owl-theme .owl-dots .owl-dot span{
+  outline: none;
+}
+button{
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+/*  section vaginisum ends here  */
+/* section clients starts here  */
+/*  section clients ends here  */
+
+/* section vaginismus couses  starts here */
+.vaginismus-couses {
+  padding: 62px 0 75px;
+}
+.vaginismus-couses .couses-img {
+  height: 287px;
+  width: 100%;
+}
+.vaginismus-couses .couses-img img {
+  width: 100%;
+  height: 100%;
+}
+.vaginismus-couses .couses-content h2 {
+  font-size: 45px;
+  line-height: 51px;
+  padding-bottom: 16px;
+  color: #2a3e7b;
+}
+.vaginismus-couses .couses-content h6 {
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 38px;
+  font-weight: 600;
+}
+.vaginismus-couses .couses-info {
+  padding-top: 15px;
+}
+.vaginismus-couses .couses-info h3 {
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 18px;
+  color: #2a3e7b;
+}
+.vaginismus-couses .couses-info p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 32px;
+  min-height: 132px;
+}
+.vaginismus-couses .couses-info a {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 600;
+  padding: 11px 40px;
+  border-radius: 50px;
+  background-color: #b9888d;
+  border: 1px solid transparent;
+}
+.vaginismus-couses .couses-info a:hover{
+  background: transparent;
+color: #000000 !important;
+border: 1px solid #000000;
+}
+/* section vaginismus ends here */
+/* section getting started starts here */
+.getting-started {
+  background-color: #253d7f;
+  padding: 86px 0 95px;
+}
+.getting-started h2 {
+  font-size: 45px;
+  line-height: 51px;
+  padding-bottom: 16px;
+}
+.getting-started h6,
+p {
+  font-size: 16px;
+  line-height: 22px;
+  line-height: 31px;
+  font-weight: 600;
+}
+.getting-started ul {
+  padding: 48px 0;
+  /* padding-left: 63px; */
+}
+.getting-started ul li {
+  margin-right: 15px;
+}
+.getting-started ul li:first-child {
+  opacity: 0.3;
+}
+.getting-started ul li a {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.getting-started ul li a:hover{
+  color: #b17b80 !important;
+}
+.getting-started .explore-btn {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 600;
+  padding: 17px 35px;
+  border-radius: 50px;
+  background-color: #152758;
+}
+.getting-started .explore-btn:hover{
+  color: #000000 !important;
+  background-color: #ffffff;
+}
+.getting-started .book-img {
+  height: 516px;
+  /* width: 447px; */
+}
+.getting-started .book-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*  section getting started ends here  */
+/* section support starts here */
+.section-support {
+  padding: 138px 0 57px;
+}
+.section-support h2 {
+  font-size: 45px;
+  line-height: 51px;
+  padding-bottom: 16px;
+  color: #2a3e7b;
+}
+.section-support h6 {
+  font-size: 16px;
+  line-height: 22px;
+  line-height: 31px;
+  font-weight: 600;
+  padding-bottom: 49px;
+}
+.section-support .support-img {
+  width: 100%;
+  height: 417px;
+}
+.section-support .support-img img {
+  width: 100%;
+  height: 100%;
+}
+.section-support .support-card h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2a3e7b;
+  padding-top: 20px;
+}
+.section-support .support-card p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  padding-top: 16px;
+  max-width: 75%;
+  min-height: 125px;
+}
+
+.section-support .support-card a {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 600;
+  padding: 11px 40px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background-color: #b9888d;
+}
+.section-support .support-card a:hover{
+  background-color: transparent;
+  border: 1px solid black;
+  color: #000000 !important;
+}
+/* section supports ends here */
+/* section overcome starts here */
+.section-overcome{
+    background-color: #f8f8f8;
+    padding: 45px 0 40px;
+}
+.section-overcome h2{
+    font-size: 45px;
+    line-height: 51px;
+    padding-bottom: 23px;
+    color: #2a3e7b;
+}
+.section-overcome h6{
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 31px;
+    font-weight: 600;
+    padding-bottom: 39px;
+}
+.section-overcome .section-list h3{
+    font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 22px;
+}
+.section-overcome .section-list li{
+/* padding: 2px 0; */
+    position: relative;
+}
+.section-overcome .section-list li a{
+    font-size: 15px;
+    line-height: 27px;
+    color: #6b6a6a;
+ font-weight: 600;
+}
+.section-overcome .section-list ul{
+    padding-left: 24px;
+}
+.section-overcome .section-list li::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fbc8c4;
+    top: 13px;
+    left: -24px;
+    transform: translateY(-50%);
+}
+/* section overcome ends here */
+/* section instagram starts here */
+.section-instagram{
+    padding: 85px 0 0 ;
+}
+.section-instagram h2{
+    font-size: 45px;
+    line-height: 51px;
+    padding-bottom: 23px;
+    color: #2a3e7b;
+}
+.section-instagram h6{
+    font-size: 16px;
+    line-height: 22px;
+    line-height: 31px;
+    font-weight: 600;
+    padding-bottom: 39px;
+}
+.section-instagram  .insta-btn {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 11px 19px;
+    border-radius: 50px;
+  border: 1px solid transparent;
+    background-color: #2a3e7b;
+  }
+  .section-instagram .insta-btn:hover{
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000 !important;
+  }
+  .section-instagram  .insta-btn i{
+      padding-right: 10px;
+  }
+  .section-instagram .img-main{
+      width: 100%;
+      height: 768px;
+  }
+  .section-instagram .img-main img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .section-instagram .insta-img{
+      width: 100%;
+      height: 386px;
+      padding: 0 3px 3px;
+  }
+  .section-instagram .img-main{
+      padding-right: 3px !important;
+  }
+  .section-instagram .insta-img img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .section-instagram .img-7, .img-4{
+      padding-right: 0;
+      margin-right: 0;
+    
+  }
+  /* content ends here */
+  /* footer starts here */
+  footer{
+      padding: 42px 0 0;
+  }
+  footer p{
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 24px;
+      color: #5c5c5c;
+      max-width: 1016px;
+    padding-bottom: 40px;
+  }
+  footer .footer-list{
+
+      padding: 36px 0 34px;
+  }
+  footer .footer-list li a{
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 21px;
+      color: #000000;
+  }
+  footer .footer-list li a:hover{
+    color: #b17b80;
+  }
+footer h5{
+    max-width: 90%;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #5c5c5c;
+
+}
+  footer .footer-bottom{
+      padding: 34px 0 20px;
+      background-color: #f7c9c2;
+  }
+  footer .bottom-para{
+font-size: 13px;
+font-weight: 600;
+line-height: 20px;
+color: #5c5c5c;
+padding-bottom: 2px;
+max-width: 90%;
+  }
+  footer .footer-bottom h4{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #5c5c5c;
+    padding-bottom: 20px;
+  }
+  footer .footer-bottom h4 a{
+      color: #5c5c5c;;
+  }
+
+  /* footer ends here */
+  /*-------------Media Querries-----------------*/
+
+@media only screen and (max-width:1366px) {
+  .container{
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .section-dawing .slider-overlay .add-cart{
+    font-size: 13px;
+    padding: 12px 26px;
+  }
+  header .top-info span {
+    font-size: 11px;
+}
+header .top-info span a {
+  font-size: 11px;}
+header .top-info p {
+  font-size: 11px;}
+/*------------- 1024px -----------------*/
+@media only screen and (max-width:1024px) {
+  .banner{
+      background-position: right top;
+      padding: 273px 0 150px;
+  }
+  .banner .banner-content h1 {
+    font-size: 69px;
+}
+.getting-started h2 {
+  font-size: 37px;}
+  .section-support .support-card .begin{
+    min-height: 150px;
+  }
+  .section-support .support-card p{
+    max-width: 95%;
+  }
+  .section-overcome .section-list li a {
+    font-size: 12px;}
+    .section-instagram .insta-btn{
+      margin-top: 20px;
+    }
+}
+/*------------- 991px -----------------*/
+@media only screen and (max-width:991px) {
+
+  header .header-top ul li a {
+    font-size: 16px;}
+    header .top-info p {
+      font-size: 16px;}
+      .main-list{
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column !important;
+        margin-top: -3px;
+        padding: 10px 0;
+    }
+    .navbar-toggler{
+      border: none;
+    }
+    header .header-content .navbar-nav li a{
+      font-size: 18px;
+      padding-left: 10px;
+    }
+    header .header-content .navbar-nav li:hover{
+background-color: #b17b80 !important;
+    }
+    header .header-content .navbar-nav li:hover a{
+      color: #fff !important;
+    }
+    header .header-content .cart-main{
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .section-vaginismus h2 {
+      font-size: 40px;}
+      .section-client .client-veiw a {
+      padding: 11px 48px;
+      font-size: 14px;
+      margin-top: 15px;
+      }
+      .couses-card{
+        margin-bottom: 25px;
+      }
+      .getting-started h2 {
+        font-size: 29px;
+        line-height: 31px;}
+        .getting-started {
+          background-color: #253d7f;
+          padding: 80px 0 50px;
+      }
+        .section-support {
+          padding: 60px 0 50px;
+      }
+      .section-support .support-card .begin{
+        min-height: 125px;
+      }
+      .support-card{
+        margin-bottom: 20px;
+      }
+      .section-list {
+        margin-bottom: 20px;
+      }
+      .section-instagram .insta-btn {
+        font-size: 11px;
+        padding: 10px 13px;
+    }
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width:767px) {
+  header .top-info p {
+    font-size: 14px;
+}
+.banner{
+  padding: 240px 0 100px;
+}
+.banner .banner-content h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+.section-vaginismus h2 {
+  font-size: 33px;
+}
+.section-vaginismus {
+  padding: 50px 0 13px;
+}
+.section-client {
+  padding: 50px 0 50px;
+}
+.client-veiw{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section-client .client-left-info {
+  padding-bottom: 30px;
+}
+.section-client .client-right-info {
+  padding-left: 15px;
+  padding-right: 35px;
+}
+.section-support h2 {
+  font-size: 29px;}
+  .section-support {
+    padding: 50px 0 50px;
+}
+.section-instagram {
+  padding: 50px 0 0;
+}
+/*------------- 640px -----------------*/
+@media only screen and (max-width:640px) {
+  .getting-started ul li a {
+    font-size: 14px;}
+}
+header .top-info span {
+padding: 0;
+  font-size: 11px;
+  border: none;
+}
+.logo img{
+  width: 70%;
+}
+header .top-info span a {
+padding: 0;
+  font-size: 11px;
+  border: none;
+}
+header .top-info p {
+  font-size: 10px;
+  padding: 0;
+  border: none;
+}
+.banner .banner-content h1 {
+  font-size: 38px;
+  line-height: 60px;
+}
+.banner {
+  padding: 208px 0 50px;
+  background-position: bottom;
+}
+.section-client h2 {
+  font-size: 37px;}
+  .vaginismus-couses .couses-content h2 {
+    font-size: 35px;}
+    .getting-started {
+      padding: 50px 0;
+    }
+    .section-support h2 {
+      font-size: 25px;
+      line-height: 35px;
+  }
+  .section-instagram h2 {
+    font-size: 35px;}
+    .section-instagram h6{
+      padding-bottom: 0;
+    }
+    .footer-logo img{
+      width: 60%;
+    }
+    footer .footer-list li a {
+      font-size: 10px;}
+      footer .footer-list {
+        padding: 15px 0;
+    }
+    .community {
+      background-color: #f8f8f8;
+      padding: 50px 0;
+  }
+  .vaginismus-couses {
+    padding: 50px 0 0px;
+}
+.powered-logo img{
+  width: 60%;
+  }
+  footer h5 {
+    max-width: 100%;
+  }
+  footer .bottom-para {
+    max-width: 100%;
+  }
+}
+/*------------- 480px -----------------*/
+@media only screen and (max-width:480px) {
+  header .header-top ul li{
+    border: none;
+    padding: 0 6px 0 5px;
+  }
+  header .header-top ul li a{
+    font-size: 12px;
+  }
+.logo{
+  width: 75%;
+}
+.logo img {
+  width: 49%;
+}
+.banner .banner-content h1 {
+  font-size: 25px;
+  line-height: 40px;
+}
+.banner .banner-content a {
+  padding: 10px 35px;
+}
+.banner .banner-content a::before{
+  padding: 10px 35px;
+}
+.section-dawing h2 {
+  font-size: 25px;
+  line-height: 30px;}
+  .section-dawing {
+    padding: 50px 0 13px;
+}
+.community h2 {
+  font-size: 25px;
+  line-height: 30px;}
+  .community .community-img {
+    height: 300px;
+}
+.community .community-info h3 {
+  font-size: 25px;
+  line-height: 41px;}
+  .section-vaginismus h2 {
+    font-size: 23px;
+    line-height: 31px;
+}
+.section-client h2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+.vaginismus-couses .couses-content h2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+.getting-started ul li a {
+  font-size: 9px;
+}
+.getting-started ul li{
+  margin-right: 7px;
+}
+.getting-started h2 {
+  font-size: 25px;
+  line-height: 40px;
+}
+.getting-started .explore-btn {
+  padding: 8px 28px;
+}
+.section-overcome h2 {
+  font-size: 27px;
+  line-height: 40px;}
+  .section-instagram h2 {
+    font-size: 27px;
+    line-height: 40px;}
+    footer .footer-list li a {
+      font-size: 11px;
+  }
+  }     
+  /* header .top-info p {
+    font-size: 8px;}
+    .banner .banner-content h1 {
+      font-size: 30px;
+      line-height: 45px;
+  }
+
+.banner .banner-content p {
+  font-size: 16px;
+}
+.banner .banner-content a {
+  padding: 10px 35px;
+}
+.banner .banner-content a::before{
+  padding: 10px 35px;
+}
+.section-dawing h2 {
+  font-size: 33px;
+  line-height: 40px;
+}
+.community h2{
+  font-size: 33px;
+  line-height: 40px;
+}
+.getting-started h2 {
+  font-size: 25px;}
+  .getting-started ul li a {
+    font-size: 11px;
+}
+.getting-started .explore-btn {
+  padding: 10px 25px;
+}
+.section-overcome h2 {
+  font-size: 33px;
+  line-height: 39px;
+}
+footer .footer-list li a {
+  font-size: 8px;
+}
+.powered-logo img{
+width: 60%;
+}
+footer h5 {
+  max-width: 100%;
+}
+footer .bottom-para {
+  max-width: 100%;
+}
+} */
